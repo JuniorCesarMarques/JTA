@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #06309938;
+}
+
+header {
+    background-image: url('../imagens/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2a1467;
+    height: 200px;
+    
+}
+
+nav {
+    background-color: #2a1467; 
+    padding: 10px;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #180746;
+}
+
+main {
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer.container1 {
+    display: flex;
+    background-color: #180746;
+    padding-left: 200px;
+}
+
+div.container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    justify-content: flex-start space-between; /*Alinhamento horizontal*/
+    
+}
+
+div.redesSociais {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 30px;
+    justify-content: space-around;
+}
+
+
+footer > div {
+    display: flex;
+    height: 100px;
+    font: normal 0.8em Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px;
+}
+
+a > img {
+    width: 30px;
+}
+
+
