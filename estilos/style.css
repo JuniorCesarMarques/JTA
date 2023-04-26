@@ -37,7 +37,8 @@ nav > a:hover {
 }
 
 main {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 200px;
     height: 100vh;
     margin: auto;
     background-color: white;
@@ -54,7 +55,7 @@ div.container2 {
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-    justify-content: flex-start space-between; /*Alinhamento horizontal*/
+    justify-content: space-between; /*Alinhamento horizontal*/
     
 }
 
@@ -63,7 +64,7 @@ div.redesSociais {
     flex-direction: row;
     width: 150px;
     height: 30px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 

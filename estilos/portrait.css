@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+footer.container1 {
+    padding-left: 0px;
+}
+
+div.container2 {
+    margin-left: 0px;   
+}
+
+footer > div {
+    font: normal 0.5em Arial, Helvetica, sans-serif;
+
+}
+
