@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+footer > div {
+    align-items: center;
+}
+
 footer.container1 {
+    flex-direction: column;
     padding-left: 0px;
 }
 
