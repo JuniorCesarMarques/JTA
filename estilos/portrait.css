@@ -10,7 +10,8 @@ footer.container1 {
 }
 
 div.container2 {
-    margin-left: 0px;   
+    margin-left: 0px; 
+    height: 50px;  
 }
 
 footer > div {
