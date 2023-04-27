@@ -9,16 +9,22 @@
     <link rel="stylesheet" href="estilos/portrait.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="estilos/landscape.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header></header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Quem somos</a>
-        <a href="#">Contato</a>
-    </nav>
-    <main>
-
+    <header>
+    </header> 
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+        </span>    
+    <menu id="menuLista">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </menu>
+    <main> 
     </main>
     <footer class="container1">
         <div>
@@ -35,5 +41,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
