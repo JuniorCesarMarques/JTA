@@ -2,6 +2,7 @@
 
 #menuLista {
     display: none;
+
     
 }
 
@@ -15,6 +16,8 @@ span#burger {
 
 menu > ul {
     list-style: none;
+    display: block;
+    padding: 0;
 
 }
 
