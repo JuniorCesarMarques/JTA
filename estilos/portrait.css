@@ -31,11 +31,6 @@ menu a {
     text-align: center;
 }
 
-menu a:hover {
-    color: rgb(133, 133, 133);
-    transition: 0.3s ease-in-out;
-}
-
 footer > div {
     align-items: center;
 }

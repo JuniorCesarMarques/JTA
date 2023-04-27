@@ -22,6 +22,7 @@ span#burger {
     display: none;
 }
 
+
 menu> ul {
     display: flex;
     list-style: none;
