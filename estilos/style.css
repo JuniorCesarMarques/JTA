@@ -39,6 +39,11 @@ menu a {
     
 }
 
+menu a:hover {
+    color: rgb(133, 133, 133);
+    transition: 0.3s ease-in-out;
+}
+
 main {
     max-width: 1000px;
     min-width: 200px;
