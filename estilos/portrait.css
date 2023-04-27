@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+header {
+    background-image: url("../imagens/background-pq.jpg");
+}
+
 #menuLista {
     display: none;
 
