@@ -126,6 +126,18 @@ body {
         animation-duration: 1s;
         margin-left: -100vw;
     }
+
+    .content h1 {
+        font-size: 1.2em;
+    }
+
+    .footer_info {
+        font-size: 0.9em;
+    }
+
+    .footer_social {
+        width: 30%
+    }
 }
 
 @keyframes showSidebar {
