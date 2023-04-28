@@ -147,6 +147,7 @@ footer.container .info {
         align-items: center;
         height: 40%;
         justify-content: space-between;
+        font-size: 0.6em;
     }
     
     .redesSociais {
