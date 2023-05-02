@@ -243,6 +243,14 @@ body {
         text-align: center;
     }
 
+    .content_servicos h1 {
+        font-size: 35px;
+    }
+
+    .content_servicos p {
+        font-size: 15px;
+    }
+
     .footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
